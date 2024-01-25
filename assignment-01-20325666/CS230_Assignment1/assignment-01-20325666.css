@@ -1,0 +1,328 @@
+/* issues w the pyramids-> having all fixed positions disabled scroll page
+allignment issues
+picked bigger sizes for vision clarity
+page skewered to the right will add text later
+*/   
+
+
+body{
+ height: 1600px;
+ background: linear-gradient(#CCFFFF, #CCFFE5,#CCCCFF);
+  margin-right: auto;
+  margin-left:  auto;
+    
+}
+
+   
+.pyramids{
+    position:absolute;
+    text-align:center;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    margin-right:auto;
+    margin-left:auto;
+}
+#pyramid1{
+    width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+    border-bottom: 200px solid #FF99CC;
+    position: relative;
+    left:640px;
+}
+#pyramid1 div{
+     position: relative;
+    float: fixed;
+    top:55px;
+    right:25px; 
+    font-size:25px;
+    
+}
+#pyramid2{
+    width: 200px;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+    border-bottom: 200px solid #7289da;
+    position: relative;
+    left: 540px;
+    top: 5px;
+   
+}
+#pyramid2 div{
+     position: relative;
+    float: fixed;
+    top:40px;
+    right:0px;
+    font-size: 30px;
+}
+#pyramid3{
+    width: 400px;
+	height: 0;
+    border-bottom: 200px solid #aaeeee;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+    position: relative;
+    left:440px;
+    top: 10px;
+   
+}
+#pyramid3 div{
+     position: relative;
+    float: fixed;
+    top:40px;
+    right:0px;
+    font-size: 30px;
+}
+#pyramid4{
+    width: 600px;
+	height: 0;
+    border-bottom: 200px solid #9933FF;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+    position: relative;
+    left:340px;
+    top:5px;
+   
+}
+#pyramid4 div{
+     position: relative;
+    float: fixed;
+    top:30px;
+    right:0px;
+    font-size: 30px;
+}
+#pyramid5{
+    width: 800px;
+	height: 0;
+    border-bottom: 200px solid #66B2FF;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+    position: relative;
+    left:240px;
+    top:0px;
+    margin: 0;
+   
+}
+#pyramid5 div{
+     position: relative;
+    float: fixed;
+    top:40px;
+    right:0px;
+    font-size: 30px;
+}
+#pyramid6{
+    width: 1000px;
+	height: 0;
+    border-bottom: 200px solid #66FF66;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+    position: relative;
+    left:140px;
+    bottom: 2px;
+   
+}
+#pyramid6 div{
+     position: relative;
+    float: fixed;
+    top:40px;
+    right:0px;
+    font-size: 30px;
+}
+
+h1{
+    text-align: center;
+    color:#CC99FF;  
+    position: relative;
+    left: 130px;
+    font-size: 50px;
+    font-family: "Lucida Handwriting", "Courier New", monospace;
+}
+form
+{
+    text-align: center;
+    position: absolute;
+    top: 1330px;
+    left: 770px;
+}
+.button { /* makin buttons disappear has to do w hover*/
+  background-color: #E0E0E0; /* Green */
+  border: none;
+  color: black;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+    
+}
+.button:hover {
+background-color: #A0A0A0
+    
+                           }
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.plus1 {
+    border-radius: 50%;
+    position: relative;
+    float:fixed;
+    top: 55px;
+    left:25px;
+}
+.minus1 {
+    border-radius:50%;
+    position: relative;
+    float: fixed;
+    bottom: 5px;
+    right:70px;
+
+}
+.plus2 {
+    border-radius: 50%;
+    position: relative;
+    top: 25px;
+    left:140px;
+}
+.minus2 {
+    border-radius:50%;
+ position: relative;
+    right: 140px;
+    top: 25px;
+}
+.plus3 {
+    border-radius: 50%;
+    position: relative;
+    top: 25px;
+    left:240px;
+}
+.minus3 {
+    border-radius:50%;
+ position: relative;
+    right: 240px;
+    top: 25px;
+}
+.plus4 {
+    border-radius: 50%;
+    position: relative;
+    top: 25px;
+    left:340px;
+}
+.minus4 {
+    border-radius:50%;
+ position: relative;
+    top: 25px;
+    right: 340px;
+}
+.plus5 {
+    border-radius: 50%;
+    position: relative;
+    top: 25px;
+    left:440px;
+}
+.minus5 {
+    border-radius:50%;
+ position: relative;
+    top: 25px;
+    right: 440px;
+}
+.plus6 {
+    border-radius: 50%;
+    position: relative;
+    top: 25px;
+    left:540px;
+}
+.minus6 {
+    border-radius:50%;
+ position: relative;
+    top: 25px;
+    right: 540px;
+}
+#c1
+{
+ height: 50px;
+  width: 50px;
+  background-color: #E0E0E0;
+  border-radius: 50%;
+ position: relative;
+    float: fixed;
+   bottom:95px;
+    right:25px;
+    margin:right;
+    margin:left;
+    font-size: 35px;
+}
+#c2
+{
+    height: 50px;
+  width: 50px;
+  background-color: #E0E0E0;
+  border-radius: 50%;
+ position: relative;
+    float: fixed;
+     position: relative;
+    float: fixed;
+    font-size: 40px;
+    bottom:65px;
+   left:70px;
+  
+}
+#c3
+{
+   height: 50px;
+  width: 50px;
+  background-color: #E0E0E0;
+  border-radius: 50%;
+ position: relative;
+    float: fixed;
+     position: relative;
+    float: fixed;
+    bottom:65px;
+    left:170px;
+    font-size: 40px;
+}
+#c4
+{
+    height: 50px;
+  width: 50px;
+  background-color: #E0E0E0;
+  border-radius: 50%;
+ position: relative;
+    float: fixed;
+   bottom:65px;
+    left:270px;
+    float: fixed;
+    font-size: 40px;
+}
+#c5
+{
+    height: 50px;
+  width: 50px;
+  background-color: #E0E0E0;
+  border-radius: 50%;
+ position: relative;
+    float: fixed;
+   top:45px;
+   left:370px;
+     position: absolute;
+    float: fixed;
+    font-size: 40px;
+}
+#c6
+{
+  height: 50px;
+  width: 50px;
+  background-color: #E0E0E0;
+  border-radius: 50%;
+ position: relative;
+    float: fixed;
+   bottom:60px;
+   left:470px;
+    float: fixed;
+    font-size: 40px;
+}

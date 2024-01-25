@@ -1,0 +1,55 @@
+<html>
+     <head> 
+         <meta charset="UTF-8">
+         <title>Precious's Food Pyramid</title>
+        <link href="assignment-01-20325666.css" rel="stylesheet" type="text/css"/>
+         <script src="assignment-01-20325666.js"></script>
+        </head>
+<body onload="Hide()">
+    <h1>Precious's Food Pyramid</h1> 
+    
+    <div class="pyramids" >
+        <div id="pyramid1" onmouseover="hoveron('p1','m1')" onmouseout="hoveroff('p1','m1')">
+            <div id="Sugars">Fats & Sugars </div>
+            <button class="button plus1"  id="p1" onclick="increment1('count1')">+</button>
+     <button class="button minus1" id="m1" onclick="decrement1('count1')">–</button>
+         <p id="c1"><count id= "count1">0</count></p>
+          </div>
+          <div id="pyramid2" onmouseover="hoveron('p2','m2')" onmouseout="hoveroff('p2','m2')">
+          <div id="Fats">Fats, Spreads, & Oils</div>
+              <button class="button plus2" id="p2" onclick="increment2('count2')">+</button>
+            <button class="button minus2" id="m2" onclick="decrement2('count2')">–</button>
+              <p id="c2" ><count id= "count2">0</count></p>
+          </div>
+          <div id="pyramid3" onmouseover="hoveron('p3','m3')" onmouseout="hoveroff('p3','m3')">
+          <div id="Meat">Meat, Fish, Poultry, Eggs, Nuts, & Beans</div>
+              <button class="button plus3" id="p3" onclick="increment3('count3')">+</button>
+            <button class="button minus3" id="m3" onclick="decrement3('count3')">–</button>
+              <p id="c3"><count id= "count3">0</count></p> 
+          </div>
+          <div id="pyramid4" onmouseover="hoveron('p4','m4')" onmouseout="hoveroff('p4','m4')">
+          <div id="Milk">Milk, Yogurt, and Cheese</div>
+              <button class="button plus4" id="p4" onclick="increment4('count4')">+</button>
+            <button class="button minus4" id="m4" onclick="decrement4('count4')">–</button>
+               <p id="c4"><count id= "count4">0</count></p> 
+          </div>
+          <div id= "pyramid5" onmouseover="hoveron('p5','m5')" onmouseout="hoveroff('p5','m5')">
+          <div id= "Whole">Wholemeal Cereals and Breads, Potatoes, Pasta, and Rice</div>
+              <button class="button plus5" id="p5" onclick="increment5('count5')">+</button>
+            <button class="button minus5" id="m5" onclick="decrement5('count5')">–</button>
+              <p id="c5"><count id= "count5">0</count></p> 
+          </div>
+          <div id="pyramid6" onmouseover="hoveron('p6','m6')" onmouseout="hoveroff('p6','m6')">
+          <div id="Veggies">Fruits and Vegetables</div>
+              <button class=" button plus6" id="p6" onclick="increment6('count6')">+</button>
+            <button class="button minus6" id="m6" onclick="decrement6('count6')">–</button>
+               <p id="c6"><count id= "count6">0</count></p> 
+          </div>
+    </div> 
+    
+    <form>
+    <p id="UserDate"> Enter Today's Date <input type=date id="dateInput"> </p>
+     </form> 
+
+    </body>
+</html>
